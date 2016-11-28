@@ -37,7 +37,6 @@ var App = React.createClass({
     }
   },
   onNewSearchValue: function(e) {
-    console.log('new car entered', e.target.value);
     this.setState({
       query: e.target.value
     })
